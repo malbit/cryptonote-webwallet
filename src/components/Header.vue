@@ -3,7 +3,7 @@
   <div class="slim-header">
     <div class="container">
       <div class="slim-header-left">
-        <h3 class="slim-logo"><router-link to="/"><img src="/static/img/logo-nbr.png" style="width: 50px" /> Nióbio Cash<span></span></router-link></h3>
+        <h3 class="slim-logo"><router-link to="/"><img src="/static/img/logo-nbr.png" style="width: 50px" /> ArQmA NETWORK<span></span></router-link></h3>
       </div><!-- slim-header-left -->
       <div class="slim-header-right">
         <alerts :isNewAlerts="view.isNewAlerts" :alerts="alerts" />

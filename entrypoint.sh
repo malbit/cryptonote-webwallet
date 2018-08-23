@@ -4,7 +4,7 @@
 # if cannot parse, return false
 bool () {
   value=$(echo $1 | tr '[:upper:]' '[:lower:]')
-  case $value in 
+  case $value in
     ("yes"|"y"|"true"|"0")
       return 0
       ;;
@@ -73,7 +73,7 @@ if ! bool "$MOUNTED"; then
 
    echo "  server_name localhost;" >> $DEFAULT_CONF
    echo "" >> $DEFAULT_CONF
-   echo "  resolver 127.0.0.11 valid=30s;" >> $DEFAULT_CONF
+   echo "  resolver 127.0.0.11 valid=30s;" >> $DEFAULT_CONF // to check
    echo "" >> $DEFAULT_CONF
    echo "  location / {" >> $DEFAULT_CONF
    echo "    root /usr/share/nginx/html;" >> $DEFAULT_CONF

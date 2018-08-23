@@ -50,7 +50,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         pathRewrite: {"^/api/v1/conversions" : ""}
       },
       "/api/v1/tickers/NBR": {
-        target: "http://localhost:3003/v1/tickers/NBR",
+        target: "http://localhost:3003/v1/tickers/NBR", //to change
         pathRewrite: {"^/api/v1/tickers/NBR" : ""}
       },
       "/api": {
