@@ -1,6 +1,6 @@
 export default {
-  symbol: 'NBR',
-  name: 'Nióbio Cash',
+  symbol: 'ARQ',
+  name: 'ArQmA',
   decimals: 8,
   defaultUnit: 100000000,
   defaultCurrency: 'USD',
@@ -9,5 +9,5 @@ export default {
   reCAPTCHA: {
     sitekey: '6LcRJFMUAAAAAIivj-K7w1kf-lmdFF7AbBYIeF8B'
   },
-  explorerHash: 'http://explorer.niobiocash.com/?hash=@{hash}#blockchain_transaction'
+  explorerHash: 'http://explorer.arqma.com/?hash=@{hash}#blockchain_transaction'
 }
