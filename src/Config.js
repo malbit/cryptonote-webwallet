@@ -1,13 +1,13 @@
 export default {
-  symbol: 'NBR',
-  name: 'Nióbio Cash',
-  decimals: 8,
-  defaultUnit: 100000000,
+  symbol: 'ARQ',
+  name: 'ArQmA',
+  decimals: 9,
+  defaultUnit: 1000000000,
   defaultCurrency: 'USD',
-  minimumFee: 10000,
+  minimumFee: 2000000,
   defaultLocale: 'en-us',
   reCAPTCHA: {
-    sitekey: '6LcRJFMUAAAAAIivj-K7w1kf-lmdFF7AbBYIeF8B'
+    sitekey: '6Le4uWsUAAAAALaBSLwOcjxYJn1Pr1uzXDwOhvVh'
   },
-  explorerHash: 'http://explorer.niobiocash.com/?hash=@{hash}#blockchain_transaction'
+  explorerHash: 'https://blocks.arqma.com/tx/?hash=@{hash}'
 }
